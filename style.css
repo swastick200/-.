@@ -3,7 +3,6 @@
 --accent: #ff6fb5;
 --accent2: #9b6bff;
 --bg1: #071022;
---bg2: #001022;
 --glass: rgba(255,255,255,0.04);
 }
 *{box-sizing:border-box}
@@ -18,13 +17,13 @@ background:transparent url('[https://raw.githubusercontent.com/VincentGarreau/pa
 }
 @keyframes moveStars {
   from {background-position: 0 0;}
-  to {background-position: 1000px 1000px;}
+  to {background-position: 100px 100px;}
 }
 
 #stars{opacity:0.22;animation:moveStars 120s linear infinite}
 #stars2{opacity:0.14;transform:scale(1.6);animation:moveStars 200s linear infinite}
 #stars3{opacity:0.06;transform:scale(2);animation:moveStars 320s linear infinite}
-@keyframes moveStars{from{background-position:0 0}to{background-position:1000px 1000px}}
+@keyframes moveStars{from{background-position:0 0}to{background-position:100px 100px}}
 
 .emoji-stars{position:absolute;left:50%;top:-20px;transform:translateX(-50%);font: size 24px;z-index:2;pointer-events:none;opacity:0.95}
 
@@ -468,3 +467,4 @@ body {
     height: auto !important;
     min-height: 100vh;
 }
+
