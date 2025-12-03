@@ -18,13 +18,13 @@ background:transparent url('[https://raw.githubusercontent.com/VincentGarreau/pa
 }
 @keyframes moveStars {
   from {background-position: 0 0;}
-  to {background-position: 10000px 10000px;}
+  to {background-position: 1000px 1000px;}
 }
 
 #stars{opacity:0.22;animation:moveStars 120s linear infinite}
 #stars2{opacity:0.14;transform:scale(1.6);animation:moveStars 200s linear infinite}
 #stars3{opacity:0.06;transform:scale(2);animation:moveStars 320s linear infinite}
-@keyframes moveStars{from{background-position:0 0}to{background-position:10000px 10000px}}
+@keyframes moveStars{from{background-position:0 0}to{background-position:1000px 1000px}}
 
 .emoji-stars{position:absolute;left:50%;top:-20px;transform:translateX(-50%);font: size 24px;z-index:2;pointer-events:none;opacity:0.95}
 
